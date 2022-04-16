@@ -1,0 +1,36 @@
+.principal {
+    background: #cccccc;
+    padding: 30px;
+}
+
+.titulo-principal {
+    padding-left: 20px;
+}
+
+.titulo-centralizado {
+    text-align: center;
+}
+
+#banner {
+    width: 100%;
+}
+
+p {
+    font-size: 14px;
+    text-align: center;
+}
+
+ul {
+    display: inline-block;
+    /*  block -> 1 item por linha, independente do tamanho do conteudo;
+        inline -> Permite mais de 1 elemento por linha, porem nao permite alterar os espacamentos; Ocupa a largura do conteudo;
+        inline-block -> Ocupa a largura do conteudo (pode ser modificada) e permite mais de 1 elemento por linha.
+        */
+    vertical-align: top; /* Alinha o contudo na vertical, nesse caso, de cima para baixo*/
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imgbeneficios {
+    width: 50%;
+}
